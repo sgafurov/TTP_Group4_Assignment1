@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+main {
+    background: rgba(170, 170, 170, 0.6);
+    margin: 0;
+}
+
+header {
+    /* background-image: url("home-images/matt-chesin-9nVF3PK0cqY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: auto; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #050511ab;
+    background-color: #000000;
+    color: white;
+    padding: 30px auto;
+    text-align: center;
+}
+
+footer {
+    background-color: coral;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(226, 95, 19);
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #404040;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1; /*places the video background under accompanying content.*/
+}
+
+.site-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    /*color: rgb(218, 24, 24);*/
+    color: rgb(212, 61, 23);
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.topnav {
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: auto;
+    padding-bottom: 20px;
+    font-weight: bolder;
+} 
+
+.topnav a {
+    color: white;
+    padding: 30px 30px;
+    margin: 0 auto;
+} 
+
+.main-intro {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+}
+
+.main-list {
+    padding: 10px;
+}
+
+.home--graph {
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.home--stats {
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
