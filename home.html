@@ -9,17 +9,25 @@
     <body>
     
         <header>
-            <a href = "index.html">Home</a>
-            <a href = "about.html">About Us</a>
-            <a href = "donate.html">Donate</a>
             <h1 class="site-name">Fire Funds</h1>
-            <p>Donate To Firefighters And Fire Victims</p>
+            <div class = "topnav">
+                <a href = "index.html">Home</a>
+                <a href = "about.html">About Us</a>
+                <a href = "donate.html">Donate</a>
+            </div>
         </header>
 
         <main>
-            <iframe width="560px" height="315px" src="https://www.youtube.com/embed/oTM4vwj4KAs?start=1&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <video autoplay muted loop id="myVideo">
+            <source src="home-videos/pexels-rodnae-productions-8552244.mp4"/>
+            </video>
+
+            <!--
+                <iframe id="video" src="https://www.youtube.com/embed/oTM4vwj4KAs?start=1&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            -->
             
-            <h1>Firefighters Need Your Support</h1>
+            <div class="main--intro">
+            <h1>Firefighters Need Your Support!</h1>
             <h2>How Contributions May Be Used</h2>
             <ul>
                 <li>Funeral Funds For Deceseaced Firefighters</li>
@@ -28,11 +36,12 @@
                 <li>Fire Station Maintenece</li>
             </ul>
             <h2>Firefighters are capeless heroes that are there for us in life-threatening situations.</h2>
-            <h2>Let's be there for them.</h2>
+            <h2><em>Let's be there for them.</em></h2>
+            </div>
             
             <h1>Fires Ravage California Every Year</h1>
             <p>Climate change has increased the severity and duration of wildfires. Increase in dryer and hotter days and decreaes in percipitation contribute to these wilfidres.</p>
-            <img width="800px" height="400px" src="home-images/ca_wildfires.png.webp"/>
+            <img class="home--graph" width="800px" height="400px" src="home-images/ca_wildfires.png.webp"/>
 
             <h2>"The number of dry, warm, and windy autumn days—perfect wildfire weather—in California has more than doubled since the 1980s."</h2>
             <p>-Scientific American</p>
@@ -41,7 +50,7 @@
             <p>https://www.cars2charities.org/blog/donating-to-first-responders</p>
 
             <h1>Fires Destroy Lives and Properties</h1>
-            <img width="800px" height="315px" src="home-images/2021_Cal_Fire_Stats.png"/>
+            <img class="home--stats" width="800px" height="315px" src="home-images/2021_Cal_Fire_Stats.png"/>
             <p>https://www.fire.ca.gov/incidents/2021/</p>
             
             <h2>Problems that occur</h2>
