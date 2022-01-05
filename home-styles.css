@@ -6,7 +6,7 @@
 }
 
 main {
-    background: rgba(170, 170, 170, 0.6);
+    /* background: rgba(170, 170, 170, 0.6); */
     margin: 0;
 }
 
@@ -14,10 +14,10 @@ header {
     /* background-image: url("home-images/matt-chesin-9nVF3PK0cqY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
-    height: auto; 
+    /* background-color: #050511ab; */
+    height: auto;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #050511ab;
     background-color: #000000;
     color: white;
     padding: 30px auto;
@@ -25,9 +25,13 @@ header {
 }
 
 footer {
-    background-color: coral;
+    background-color: #000000;
     text-align: center;
     padding: 20px;
+}
+
+footer > p {
+    color: white;
 }
 
 h1 {
@@ -38,8 +42,27 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    color: rgb(36, 84, 197);
+    padding-top: 20px;
+    font-size: 25px;
+}
+
 p {
     color: #404040;
+}
+
+li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+ul {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 #myVideo {
@@ -51,7 +74,8 @@ p {
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1; /*places the video background under accompanying content.*/
+    z-index: -1;
+    /*places the video background under accompanying content.*/
 }
 
 .site-name {
@@ -70,25 +94,105 @@ p {
     padding-top: auto;
     padding-bottom: 20px;
     font-weight: bolder;
-} 
+}
 
 .topnav a {
     color: white;
     padding: 30px 30px;
     margin: 0 auto;
-} 
-
-.main-intro {
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    padding-top: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700px;
 }
 
-.main-list {
+.main-intro {
+    background-color: rgba(239, 241, 243, 0.747);
+    border-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.680000305175781px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    position: relative;
+    width: auto;
+    height: fit-content;
+    /* word-wrap: break-word; */
+}
+
+.main-climate-change {
+    background-color: rgba(239, 241, 243, 0.747);
+    border-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.680000305175781px;
+    font-style: normal;
+    font-weight: normal;
+    height: 683.2352905273438px;
+    line-height: 25.405712127685547px;
+    margin: 20px auto;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    position: relative;
+    width: auto;
+    height: fit-content;
+}
+
+.main-stats {
+    background-color: rgba(239, 241, 243, 0.747);
+    border-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.680000305175781px;
+    font-style: normal;
+    font-weight: normal;
+    height: 683.2352905273438px;
+    line-height: 25.405712127685547px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    width: auto;
+    height: fit-content;
+}
+
+.main-conclusion {
+    color: rgb(36, 84, 197);
+    font-size: larger;
+    font-weight: bold;
+    line-height: 200%;
+    ;
+}
+
+.main-list>h2 {
+    padding-top: 20px;
+    color: rgb(36, 84, 197);
+}
+
+.main-list>ul {
     padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.main-list>li {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 7px;
+    font-weight: bold;
 }
 
 .home--graph {
@@ -103,7 +207,6 @@ p {
     padding: 20px;
 }
 
-li {
-    list-style: none;
-    padding: 10px;
+.main-conclusion>h2 {
+    padding: 5px;
 }
