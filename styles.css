@@ -1,0 +1,57 @@
+.topnav{
+    font-size: 20px;
+    text-align: center;
+    background-color: #00001A;
+    margin-top: 15px;
+    margin-bottom: 30px;  
+}
+.topnav a{
+    color:white;
+    padding:30px;
+}
+
+.site-name {
+    color: red;
+}
+
+.Who-We-Are {
+    Text-align: center;
+    border: 100px;
+    
+}
+
+
+#teamtitle{
+    text-align: center;
+    padding: 10px;
+    background-color: #00001A;
+    color: red;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.team {
+   float: left;
+   width: 30%;
+   margin-bottom: 15px;
+   padding: 0 8px;
+   display: inline;
+   text-align: center;
+    
+}
+.row ::after {
+    width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+
+
+
+
+
