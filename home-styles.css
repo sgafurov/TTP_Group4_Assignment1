@@ -2,21 +2,11 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    /*font-family: 'Roboto', sans-serif;*/
-}
-
-main {
-    /* background: rgba(170, 170, 170, 0.6); */
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    /* background-image: url("home-images/matt-chesin-9nVF3PK0cqY-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-color: #050511ab; */
     height: auto;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #000000;
     color: white;
@@ -30,14 +20,13 @@ footer {
     padding: 20px;
 }
 
-footer > p {
+footer>p {
     color: white;
 }
 
 h1 {
-    font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    color: rgb(226, 95, 19);
+    color: rgb(204, 24, 0);
     text-align: center;
     font-size: 40px;
 }
@@ -50,10 +39,11 @@ h2 {
 
 p {
     color: #404040;
+    font-size: 15px;
 }
 
 li {
-    list-style: none;
+
     padding-top: 5px;
     padding-bottom: 10px;
     text-align: left;
@@ -79,9 +69,6 @@ ul {
 }
 
 .site-name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700px;
-    /*color: rgb(218, 24, 24);*/
     color: rgb(212, 61, 23);
     font-size: 50px;
     padding-top: 20px;
@@ -103,22 +90,15 @@ ul {
 }
 
 .main-intro {
-    background-color: rgba(239, 241, 243, 0.747);
-    border-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0px;
+    background-color: rgba(212, 212, 212, 0.78);    
     box-sizing: border-box;
     color: rgb(75, 79, 88);
     display: block;
     font-family: "Open Sans", sans-serif;
-    font-size: 13.680000305175781px;
     font-style: normal;
     font-weight: normal;
     margin: 20px auto;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
+    padding: 20px;
     position: relative;
     width: auto;
     height: fit-content;
@@ -126,43 +106,13 @@ ul {
 }
 
 .main-climate-change {
-    background-color: rgba(239, 241, 243, 0.747);
-    border-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0px;
+    background-color: rgba(212, 212, 212, 0.78);    
     box-sizing: border-box;
     color: rgb(75, 79, 88);
     display: block;
     font-family: "Open Sans", sans-serif;
-    font-size: 13.680000305175781px;
     font-style: normal;
     font-weight: normal;
-    height: 683.2352905273438px;
-    line-height: 25.405712127685547px;
-    margin: 20px auto;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    position: relative;
-    width: auto;
-    height: fit-content;
-}
-
-.main-stats {
-    background-color: rgba(239, 241, 243, 0.747);
-    border-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0px;
-    box-sizing: border-box;
-    color: rgb(75, 79, 88);
-    display: block;
-    font-family: "Open Sans", sans-serif;
-    font-size: 13.680000305175781px;
-    font-style: normal;
-    font-weight: normal;
-    height: 683.2352905273438px;
-    line-height: 25.405712127685547px;
     margin: 20px auto;
     padding: 20px;
     position: relative;
@@ -170,12 +120,24 @@ ul {
     height: fit-content;
 }
 
-.main-conclusion {
-    color: rgb(36, 84, 197);
-    font-size: larger;
-    font-weight: bold;
-    line-height: 200%;
-    ;
+.main-climate-change > h2 {
+    margin-top: 15px;
+}
+
+.main-stats {
+    background-color: rgba(212, 212, 212, 0.78);    
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.680000305175781px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    width: auto;
+    height: fit-content;
 }
 
 .main-list>h2 {
@@ -195,18 +157,49 @@ ul {
     font-weight: bold;
 }
 
-.home--graph {
+.graph-img {
     margin: 0 auto;
     display: block;
-    padding: 20px;
+    padding: 30px;
+    padding-bottom: 0;
 }
 
-.home--stats {
+.stats-img {
     margin: 0 auto;
     display: block;
+    padding: 30px;
+    width: 900px;
+    height: 315px;
+    padding-bottom: 0;
+}
+
+.main-conclusion {
+    background-color: rgba(168, 168, 168, 0.788);
+    box-sizing: border-box;
+    color: rgb(75, 79, 88);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.680000305175781px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 20px auto;
     padding: 20px;
+    position: relative;
+    width: auto;
+    height: fit-content;
 }
 
 .main-conclusion>h2 {
+    color: rgb(228, 88, 24);
+    font-weight: bold;
+    line-height: 200%;
     padding: 5px;
+}
+
+.quote {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: rgb(39, 143, 8);
+    line-height: normal;
+    text-align: center;
 }
