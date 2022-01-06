@@ -1,17 +1,36 @@
-.topnav{
-    font-size: 20px;
-    text-align: center;
-    background-color: #00001A;
-    margin-top: 15px;
-    margin-bottom: 30px;  
+*{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.topnav a{
-    color:white;
-    padding:30px;
+
+header {
+    height: auto;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    padding: 30px auto;
+    text-align: center;
+}
+.topnav {
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: auto;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.topnav a {
+    color: white;
+    padding: 30px 30px;
+    margin: 0 auto;
 }
 
 .site-name {
-    color: red;
+    font-family: ‘Kanit’;
+    color: rgb(212, 61, 23);
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .Who-We-Are {
@@ -20,20 +39,20 @@
     
 }
 
-
-#teamtitle{
-    text-align: center;
-    padding: 10px;
-    background-color: #00001A;
-    color: red;
+.Presentation {
+    display: flex;
+    width: fit-content;
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
+.teamtitle{
+    text-align: center;
+    background-color: #00001A;
+    color: rgb(212, 61, 23);
 }
 
 
 .team {
+    margin: 0 auto;
    float: left;
    width: 30%;
    margin-bottom: 15px;
@@ -42,14 +61,20 @@ html {
    text-align: center;
     
 }
-.row ::after {
+
+
+/* .row {
     width: 100%;
-    content: "";
-    clear: both;
-    display: table;
+    margin: 0, auto;
+} */
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    color: white;
     
 }
-
 
 
 
