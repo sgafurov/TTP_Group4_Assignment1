@@ -1,12 +1,11 @@
-*{
-    font-family: 'Roboto',sans-serif;
+* {
+    font-family: 'Roboto', sans-serif;
 }
-
 
 header {
     height: auto;
     margin: 0;
-    background-color: black;
+    background-color: #00001A;
     color: white;
     padding: 30px auto;
     text-align: center;
@@ -21,7 +20,7 @@ header {
     margin: 0;
 }
 
-body{
+body {
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -35,6 +34,7 @@ body{
     padding-bottom: 20px;
     font-weight: bolder;
 }
+
 .topnav a {
     color: white;
     padding: 30px 30px;
@@ -42,14 +42,15 @@ body{
 }
 
 
-img{
+img {
     padding-top: 25px;
     display: flex;
     margin: auto;
-    width: 70% ;
+    width: 70%;
 }
-.grat-message{
-    
+
+.grat-message {
+
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 20px;
@@ -62,47 +63,53 @@ img{
     height: 60px;
     text-align: center;
     word-wrap: break-word;
-    
+
 }
 
-.donate-button{
+.donate-button {
     margin-left: auto;
     margin-right: auto;
-    
-    
+
+
 }
 
 .button {
-    background-color: #FCA311 ; 
+    background-color: #FCA311;
     border: none;
     color: white;
     padding: 15px 30px;
     text-align: center;
-    margin:15px 30px;
+    margin: 15px 30px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
 }
 
-.external-link{
+.external-link {
     padding-left: 15px;
     padding-bottom: 15px;
     margin-top: 20px;
     text-align: left;
-    
+
 }
 
 .external-link a {
     color: #00001A;
     font-weight: bold;
-    
+
 }
 
 footer {
+    box-sizing: border-box;
+    height: fit-content;
     background-color: #000000;
-    color: white;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
+#footer-paragraph {
+    margin: 0;
+    padding: 0;
+}
